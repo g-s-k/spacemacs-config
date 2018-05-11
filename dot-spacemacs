@@ -56,6 +56,7 @@ values."
    dotspacemacs-additional-packages
    '(
      auctex
+     matlab-mode
     )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -316,6 +317,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq-default show-trailing-whitespace t)
   (setenv "SSH_ASKPASS" "git-gui--askpass")
+  (add-to-list 'auto-mode-alist '("\\.m\\'" . matlab-mode))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

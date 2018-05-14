@@ -319,7 +319,7 @@ you should place your code here."
   (setq-default show-trailing-whitespace t)
   (setenv "SSH_ASKPASS" "git-gui--askpass")
   (add-to-list 'auto-mode-alist '("\\.m\\'" . matlab-mode))
-  (setq-default 'matlab-indent-level 2)
+  (setq-default matlab-indent-level 2)
   (setq org-directory "~/Documents/org")
   (setq org-mobile-inbox-for-pull "~/Documents/org/flagged.org")
   (setq org-mobile-directory "~/Dropbox/org")

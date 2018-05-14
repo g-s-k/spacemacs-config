@@ -320,6 +320,12 @@ you should place your code here."
   (setenv "SSH_ASKPASS" "git-gui--askpass")
   (add-to-list 'auto-mode-alist '("\\.m\\'" . matlab-mode))
   (setq-default 'matlab-indent-level 2)
+  (setq org-directory "~/Documents/org")
+  (setq org-mobile-inbox-for-pull "~/Documents/org/flagged.org")
+  (setq org-mobile-directory "~/Dropbox/org")
+  (setq org-todo-keywords
+        '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
+  (setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("@moving" . ?m)))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -331,6 +337,7 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(evil-want-Y-yank-to-eol nil)
  '(matlab-functions-have-end t)
+ '(org-agenda-files (quote ("~/Documents/org/gtd.org")))
  '(package-selected-packages
    (quote
     (vimrc-mode dactyl-mode ssh-agency syntactic-close matlab-mode ocodo-svg-modelines csv-mode toml-mode racer pos-tip cargo rust-mode company yasnippet auto-complete powershell git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter diff-hl evil-commentary ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package unfill toc-org spaceline smeargle restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox orgit org-projectile org-present org-pomodoro org-mime org-download org-bullets open-junk-file neotree mwim move-text mmm-mode markdown-toc magit-gitflow macrostep lorem-ipsum linum-relative link-hint indent-guide hungry-delete htmlize hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-gitignore helm-flx helm-descbinds helm-company helm-c-yasnippet helm-ag google-translate golden-ratio gnuplot gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link gh-md fuzzy flx-ido fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump diminish define-word company-statistics column-enforce-mode clean-aindent-mode auto-yasnippet auto-highlight-symbol auto-compile auctex aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line ac-ispell))))

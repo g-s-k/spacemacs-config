@@ -31,7 +31,6 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     arduino-mode
      typescript
      elm
      javascript
@@ -64,6 +63,7 @@ values."
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages
    '(
+     arduino-mode
      auctex
      auctex-latexmk
      matlab-mode

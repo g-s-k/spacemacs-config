@@ -339,6 +339,7 @@ you should place your code here."
         '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
   (setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("@moving" . ?m)))
   (auctex-latexmk-setup)
+  (setq ensime-startup-notification nil)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

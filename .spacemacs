@@ -341,6 +341,9 @@ you should place your code here."
   (auctex-latexmk-setup)
   (setq ensime-startup-notification nil)
   (column-enforce-mode 80)
+  (indent-guide-global-mode)
+  (auto-complete-mode)
+  (highlight-parentheses-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will

@@ -349,6 +349,7 @@ you should place your code here."
   (setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("@moving" . ?m)))
   (auctex-latexmk-setup)
   (setq ensime-startup-notification nil)
+  (setq helm-grep-ag-command "rg --smart-case --no-heading --line-number %s %s %s")
   (column-enforce-mode 80)
   (indent-guide-global-mode)
   (auto-complete-mode)

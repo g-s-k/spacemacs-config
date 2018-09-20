@@ -339,6 +339,7 @@ you should place your code here."
   (setenv "SSH_ASKPASS" "git-gui--askpass")
   (add-to-list 'auto-mode-alist '("\\.m\\'" . matlab-mode))
   (add-to-list 'auto-mode-alist '("\\.jsx\\'" . rjsx-mode))
+  (add-to-list 'magic-mode-alist '("^import React" . rjsx-mode))
   (setq-default js-indent-level 2)
   (setq-default matlab-indent-level 2)
   (setq org-directory "~/Documents/org")

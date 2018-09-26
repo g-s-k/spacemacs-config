@@ -476,6 +476,7 @@ you should place your code here."
   (setenv "SSH_ASKPASS" "git-gui--askpass")
   (setq-default js-indent-level 2)
   (setq-default matlab-indent-level 2)
+  (setq-default css-indent-offset 2)
   (setq ensime-startup-notification nil)
   (spacemacs/toggle-highlight-long-lines-globally-on)
   (indent-guide-global-mode)

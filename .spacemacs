@@ -51,7 +51,6 @@ This function should only modify configuration layer settings."
            java-backend 'lsp)
      json
      latex
-     major-modes
      markdown
      nginx
      org

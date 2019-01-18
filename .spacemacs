@@ -37,10 +37,8 @@ This function should only modify configuration layer settings."
      auto-completion
      better-defaults
      c-c++
-     clojure
      csv
      docker
-     elm
      emacs-lisp
      evil-commentary
      git
@@ -48,7 +46,6 @@ This function should only modify configuration layer settings."
      haskell
      helm
      html
-     ipython-notebook
      javascript
      (java :variables
            java-backend 'lsp)
@@ -64,7 +61,6 @@ This function should only modify configuration layer settings."
      racket
      react
      rust
-     scala
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
@@ -73,10 +69,7 @@ This function should only modify configuration layer settings."
      syntax-checking
      systemd
      tmux
-     typescript
      version-control
-     vimscript
-     windows-scripts
      yaml
      )
 
@@ -488,7 +481,6 @@ you should place your code here."
   (setq-default js-indent-level 2)
   (setq-default matlab-indent-level 2)
   (setq-default css-indent-offset 2)
-  (setq ensime-startup-notification nil)
   (spacemacs/toggle-highlight-long-lines-globally-on)
   (indent-guide-global-mode)
   (auto-complete-mode)

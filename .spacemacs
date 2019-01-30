@@ -485,6 +485,7 @@ you should place your code here."
   (auto-complete-mode)
   (highlight-parentheses-mode)
   (spacemacs/set-leader-keys-for-major-mode 'rjsx-mode "=" 'prettier-js)
+  (spacemacs/set-leader-keys-for-major-mode 'js2-mode "=" 'prettier-js)
   )
 
 (defun dotspacemacs/emacs-custom-settings ()

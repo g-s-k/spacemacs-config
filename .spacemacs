@@ -484,9 +484,9 @@ you should place your code here."
   (indent-guide-global-mode)
   (auto-complete-mode)
   (highlight-parentheses-mode)
-  (spacemacs/set-leader-keys "Oc" 'sp-wrap-curly)
-  (spacemacs/set-leader-keys "Or" 'sp-wrap-round)
-  (spacemacs/set-leader-keys "Os" 'sp-wrap-square)
+  (spacemacs/set-leader-keys "oc" 'sp-wrap-curly)
+  (spacemacs/set-leader-keys "or" 'sp-wrap-round)
+  (spacemacs/set-leader-keys "os" 'sp-wrap-square)
   ;; prettier
   (spacemacs/set-leader-keys-for-major-mode 'rjsx-mode "=" 'prettier-js)
   (spacemacs/set-leader-keys-for-major-mode 'js2-mode "=" 'prettier-js)

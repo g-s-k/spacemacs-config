@@ -477,6 +477,7 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setenv "SSH_ASKPASS" "git-gui--askpass")
+  (setq python-shell-interpreter "python3")
   (setq-default js-indent-level 2)
   (setq-default matlab-indent-level 2)
   (setq-default css-indent-offset 2)

@@ -46,7 +46,9 @@ This function should only modify configuration layer settings."
      haskell
      helm
      html
-     (javascript :variables node-add-modules-path t)
+     (javascript :variables
+                 node-add-modules-path t
+                 javascript-disable-tern-port-files t)
      (java :variables
            java-backend 'lsp)
      json

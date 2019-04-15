@@ -43,7 +43,7 @@ This function should only modify configuration layer settings."
      epub
      evil-commentary
      git
-     (go :variables go-tab-width 2)
+     (go :variables go-tab-width 4)
      haskell
      helm
      html

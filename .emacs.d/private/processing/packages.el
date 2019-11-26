@@ -15,7 +15,7 @@
                     (concat
                      (file-name-as-directory (exec-path-from-shell-getenv "HOME"))
                      (file-name-as-directory "processing-3.5.3")
-                     "processing-java")))
+                     (file-name-nondirectory "processing-java"))))
     :config
     (spacemacs/set-leader-keys-for-major-mode 'processing-mode
       "b" 'processing-sketch-build

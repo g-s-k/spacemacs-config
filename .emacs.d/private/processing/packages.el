@@ -13,7 +13,7 @@
       (setenv "PATH" (concat (getenv "PATH") ":/bin"))
       (setq-default processing-location
                     (concat
-                     (file-name-as-directory (exec-path-from-shell-getenv "HOME"))
+                     (file-name-as-directory (getenv "HOME"))
                      (file-name-as-directory "processing-3.5.3")
                      (file-name-nondirectory "processing-java"))))
     :config

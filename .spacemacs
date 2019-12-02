@@ -509,6 +509,8 @@ you should place your code here."
   ;; messages buffer
   (setq-default message-log-max nil)
   (kill-buffer "*Messages*")
+  ;; org agenda
+  (setq org-agenda-files (file-expand-wildcards "~/org/*.org"))
   )
 
 (defun dotspacemacs/emacs-custom-settings ()
